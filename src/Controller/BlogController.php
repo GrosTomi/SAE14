@@ -17,4 +17,12 @@ class BlogController extends AbstractController
             'controller_name' => 'BlogController',
         ]);
     }
+
+    /**
+     * @Route("/main", name="main")
+     */
+    public function main()
+    {
+        return $this->render('main.html.twig'); 
+    }
 }
