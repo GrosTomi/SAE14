@@ -1,12 +1,14 @@
 <html>
     <head>
         <title>
-            Mon site
+            {% block title %}
+            Menu
+            {% endblock %}
         </title>
         <meta charset="utf-8" lang="fr">
-        <link rel="stylesheet" href="stylesheet/stylesheet.css">
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
         <link rel="stylesheet" href="{{ asset('stylesheet/stylesheet.css') }}">
+        {% endblock %}
     </head>
     <body>
         <header>
