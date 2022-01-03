@@ -19,11 +19,11 @@ class BlogController extends AbstractController
     }
 
     /**
-     * @Route("/sheet/cv", name="cv")
+     * @Route("/cv", name="cv")
      */
     public function cv()
     {
-        return $this->render('sheet/cv.html.twig', [
+        return $this->render('cv.html.twig', [
         'title' => "CV",
         ]);
     }
