@@ -5,6 +5,8 @@
         </title>
         <meta charset="utf-8" lang="fr">
         <link rel="stylesheet" href="stylesheet/stylesheet.css">
+        {% block stylesheets %}{% endblock %}
+        <link rel="stylesheet" href="{{ asset('stylesheet/stylesheet.css') }}">
     </head>
     <body>
         <header>
