@@ -9,10 +9,10 @@ use Symfony\Component\Routing\Annotation\Route;
 class BlogController extends AbstractController
 {
     /**
-     * @Route("/main", name="main")
+     * @Route("/index", name="index")
      */
-    public function main()
+    public function index()
     {
-        return $this->render('sheet/main.html.twig'); 
+        return $this->render('index.html.twig'); 
     }
 }
