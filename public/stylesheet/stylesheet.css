@@ -4,7 +4,7 @@ body{
   margin: 0px;
   font-size: large;
   background-color: #aaa;
-  background-image: url(picture/bg.png);
+  background-image: url(../picture/bg.png);
   background-attachment: fixed;
 }
 
