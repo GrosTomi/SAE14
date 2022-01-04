@@ -27,4 +27,14 @@ class BlogController extends AbstractController
         'title' => "CV",
         ]);
     }
+
+     /**
+     * @Route("/portfolio", name="portfolio")
+     */
+    public function portfolio()
+    {
+        return $this->render('portfolio.html.twig', [
+        'title' => "Portfolio",
+        ]);
+    }
 }
