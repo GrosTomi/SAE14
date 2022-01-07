@@ -815,20 +815,6 @@ transition: all 0.3s ease;
 color: crimson;
 background: none;
 }
-/* footer section styling */
-footer{
-  background: #111;
-  padding: 15px 23px;
-  color: #fff;
-  text-align: center;
-}
-footer span a{
-  color: crimson;
-  text-decoration: none;
-}
-footer span a:hover{
-  text-decoration: underline;
-}
 /* responsive media query start */
 @media (max-width: 1104px) {
   .about .about-content .left img{
