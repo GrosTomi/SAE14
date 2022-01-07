@@ -37,4 +37,14 @@ class BlogController extends AbstractController
         'title' => "Portfolio",
         ]);
     }
+
+     /**
+     * @Route("/loisir", name="loisir")
+     */
+    public function loisir()
+    {
+        return $this->render('loisir.html.twig', [
+        'title' => "Loisir",
+        ]);
+    }
 }
