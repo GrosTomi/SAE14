@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Mon site
+        </title>
+        <meta charset="utf-8" lang="fr">
+        {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('stylesheet/stylesheet.css') }}" type="text/css" rel="stylesheet">
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="menu">
+                        <a href="index">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="cv">
+                            Mon CV
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="loisir">
+                            Mes loisirs
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a>
+                            Mes réseaux
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://twitter.com/TSaniossian">
+                                    Twitter
+                                    <p></p>
+                                    <img class="res" src="picture/twitter.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://twitch.tv/gotomi_">
+                                    Twitch
+                                    <p></p>
+                                    <img class="res" src="picture/twitch.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thomas-saniossian-1a5545228/">
+                                    Linked-In
+                                    <p></p>
+                                    <img class="res" src="picture/linkedin.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
