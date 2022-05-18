@@ -13,3 +13,4 @@ apt-get install iputils-ping
 ping mariadbConteneur
 exit
 
+docker run --name myadmin -d --network sae23_saniossian -p 9000:80 --env PMA_HOST=mariadbConteneur phpmyadmin
